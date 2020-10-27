@@ -77,17 +77,17 @@ LOCAL = __import__(name = 'bot.locals.' + CONFIG.LOCAL, fromlist = ['LOCAL']).LO
 # load Command format
 
 COMMAND = Config({
-    'START' : 'start1',
-    'PASSWORD' : 'pass1',
-    'HELP' : 'help1',
-    'LEECH' : 'leech1',
-    'CANCEL_LEECH' : 'cancel1',
-    'LEECH_LIST' : 'list1',
-    'UPLOAD_AS_DOC' : 'upload_as_doc1',
-    'UPLOAD_AS_ZIP' : 'upload_as_zip1',
-    'SET_THUMBNAIL' : 'set_thumbnail1',
-    'RESET_THUMBNAIL' : 'reset_thumbnail1',
-    'SET_TRACKER' : 'set_tracker1'
+    'START' : 'start@Torr_tg_2_bot',
+    'PASSWORD' : 'pass@Torr_tg_2_bot',
+    'HELP' : 'help@Torr_tg_2_bot',
+    'LEECH' : 'leech@Torr_tg_2_bot',
+    'CANCEL_LEECH' : 'cancel@Torr_tg_2_bot',
+    'LEECH_LIST' : 'list@Torr_tg_2_bot',
+    'UPLOAD_AS_DOC' : 'upload_as_doc@Torr_tg_2_bot',
+    'UPLOAD_AS_ZIP' : 'upload_as_zip@Torr_tg_2_bot',
+    'SET_THUMBNAIL' : 'set_thumbnail@Torr_tg_2_bot',
+    'RESET_THUMBNAIL' : 'reset_thumbnail@Torr_tg_2_bot',
+    'SET_TRACKER' : 'set_tracker@Torr_tg_2_bot'
 }, 'COMMAND_')
 
 # GOAL:
